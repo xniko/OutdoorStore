@@ -61,6 +61,14 @@
 		font-style: italic;
 	}
 
+	.logo {
+		display: block;
+		color: white;
+		float: left;
+		font-weight: bold;
+		margin: 15px 0 5px 20%;
+			}
+
 	sub
 	{
 		position: relative;
@@ -607,6 +615,7 @@
 		
 		.wrapper.style2
 		{
+			text-align: left;
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
 		}
@@ -615,6 +624,10 @@
 		{
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
+		}
+
+		.about-text {
+			width: 800px;
 		}
 
 		.wrapper.style4
