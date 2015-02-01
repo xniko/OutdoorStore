@@ -755,6 +755,59 @@
 				border-top: solid 0.6em #282828;
 			}
 			
+
+/*********************************************************************************/
+/* Product Nav                                                                           */
+/*********************************************************************************/
+
+	.productnavi
+	{
+		background-color: #282828;
+		text-align: center;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+		cursor: default;
+	}
+	
+		.productnavi ul
+		{
+			margin-bottom: 0;
+		}
+	
+		.productnavi li
+		{
+			display: inline-block;
+		}
+		
+		.productnavi a
+		{
+			position: relative;
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			outline: 0;
+		}
+		
+			.productnavi a:hover
+			{
+				color: #fff !important;
+			}
+			
+			.productnavi a.active:before
+			{
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: -0.6em;
+				left: 50%;
+				margin-left: -0.75em;
+				border-left: solid 0.75em transparent;
+				border-right: solid 0.75em transparent;
+				border-top: solid 0.6em #282828;
+			}
+
 /*********************************************************************************/
 /* Articles                                                                      */
 /*********************************************************************************/
@@ -786,6 +839,57 @@
 /* Copyright                                                                     */
 /*********************************************************************************/
 
+
+.footer1 {
+	display: block;
+font-size: 10px;
+font-style: normal;
+font-weight: normal;
+height: 0px;
+margin-left: 5%;
+vertical-align: top;
+
+}
+
+
+.footer1 ul {
+	display: block;
+font-size: 10px;
+font-style: normal;
+font-weight: normal;
+height: 0px;
+list-style-type: disc;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+}
+
+.footer1 li {
+
+display: list-item;
+float: right;
+font-size: 12px;
+font-style: normal;
+font-weight: bold;
+height: 14px;
+list-style-type: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 2px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 2px;
+text-align: left;
+width: 160px;
+}
+
 	#copyright
 	{
 		color: #666;
@@ -806,3 +910,4 @@
 		{
 			color: #777;
 		}
+
