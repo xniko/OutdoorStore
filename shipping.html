@@ -35,9 +35,9 @@
 			</nav>
 		<!-- Nav end -->
 
-		<!-- Products -->
-			<br /> <br />	
-			<div class="productnavi">
+			<!-- Products -->
+		<br /> <br />
+		<div class="productnavi">
 			<ul class="container">
 					<li><a href="#">MEN'S</a></li>
 					<li><a href="#">WOMEN'S</a></li>
@@ -51,79 +51,68 @@
 			<li style="text-align: right; font-size: 11px;"><input type="button" name="searchbtn" value="Search"></form></li>
 
 
-			</ul>
-			</div>	
+			</ul>	
+			</div>
 
 		
 
-		<!-- Registration -->
+		<!-- Shipping -->
 
 			<div class="wrapper style5">
 			<br /> <br />
-			<h2>User Registration</h2> <br />
+			<h2>Shipping</h2> <br />
 			<div class="container">
 			<div class="payment-box">
 			
 				<form method="" action="">
 		<table border="2">
 			<tr>
-				<td colspan="2" align="center">Enter Your Detail :<br /><br /></td>
+				<td colspan="2" align="center">Please enter shipment detail :<br /><br /></td>
 			</tr>
 			<tr>
 				<td>First Name</td>
-				<td><input type="text" name="txtfirstname"/></td>
+				<td><input type="text" name="username"/></td>
 			</tr>
 			<tr>
 				<td>Last Name</td>
-				<td><input type="text" name="txtfirstname"/></td>
+				<td><input type="text" name="usernamel"/></td>
 			</tr>
 			<tr>
-				<td>Gender</td>
-				<td>
-					<input type="radio" name="radgender"/> Male 
-					<input type="radio" name="radgender"/> Female
-				</td>
+				<td>City</td>
+				<td><input type="text" name="city"/></td>
 			</tr>
 			<tr>
-				<td>Country</td>
-				<td>
-					<select name="countrylist">
-						<option>Thailand</option>
-						<option>China</option>
-						<option>Japan</option>
-						<option>Singapore</option>
-					</select>
-				</td>
+				<td>State</td>
+				<td><input type="text" name="state"/></td>
+			</tr>
+			<tr>
+				<td>Phone No.</td>
+				<td><input type="text" name="phonenum"/></td>
 			</tr>
 			<tr>
 				<td valign="top">Billing Address</td>
 				<td><textarea name="address" rows="5" cols="35"></textarea></td>
-			</tr>
-			<tr>
-				<td>Email Address</td>
-				<td><input type="text" name="txtemail"/></td>
-			</tr>
-			<tr>
-				<td>Phone Number</td>
-				<td><input type="text" name="txtphone" /></td>
-			</tr>
-			<tr>
-				<td>User Name</td>
-				<td><input type="text" name="txtuser" /></td>
-			</tr>
-			<tr>
-			<td>Password</td>
-				<td><input type="password" name="txtpwd" /></td>
-			</tr>
-			<tr>
-				<td>Confirm Password</td>
-				<td><input type="password" name="txtconpwd" /></td>
 			</tr> 
+			<tr>
+				<td colspan="2" align="center">Select Shipping Option :<br /><br /></td>
+			</tr>
+			<tr>
+				<td>Shipping Option</td>
+				<td>
+					<select name="shippinglist">
+						<option>Normal Shipping</option>
+						<option>Priority Shipping (+$10.00)</option>
+						<option>EMS (+$25.00)</option>
+						<option>DHL (+$30.00)</option>
+					</select>
+				</td>
+			</tr>
+
 			<tr> 
 				<td colspan="2" align="right">
 				<br />
-					<button class="button" style="font-size:15px">Reset</button>
-					<button class="button" style="font-size:15px">Confirm</button>
+			<a href="index.html"><input type="button" class="button" style="font-size:15px" value="Back" /></a>
+			<a href="payment.html"><input type="button" class="button" style="font-size:15px" value="Proceed to Payment" /></a>
 				</td>
 				
 			</tr> 
@@ -132,6 +121,34 @@
 		</table>
 
 </form>
+
+		<!-- Product Listing Confirm -->
+
+		<div class="wrapper style5">
+		<h5>Your Cart:</h5>
+		<table>
+			<tr>
+				<td>Product</td>
+				<td>Color/Size</td>
+				<td>Price</td>
+				<td>Quantity</td>
+			</tr>
+			<tr>
+				<td><img src="images/jacket.png" width="55px"><br />DENALI JACKET</td>
+				<td>COLOR Multi-color<br/>SIZE M</td>
+				<td>$113.45</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td><img src="images/shoes3.png" width="55px"><br />STORM WINTER</td>
+				<td>COLOR Multi-color<br/>SIZE 9</td>
+				<td>$68.00</td>
+				<td>1</td>
+			</tr>
+		</table>			
+		</div>
+
+
 
 
 			</div>
